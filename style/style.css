@@ -1,0 +1,113 @@
+body {
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    margin-right: auto;
+    margin-left: 15%;
+
+    padding: 21px;
+    overflow: hidden;
+}
+
+#main {
+    display: flex;
+
+}
+
+input {
+
+    width: auto;
+    padding: 12px 30px;
+    margin: 15px 10px;
+    box-sizing: border-box;
+    border: 2px solid #4015ff;
+    border-radius: 4px;
+    font-size: 15px;
+    font-family: "Sitka Text";
+    height: 30px;
+
+}
+
+#input {
+    background-color: #3bbeff;
+}
+
+h2 {
+
+    color: #1570cd;
+}
+
+hr {
+    width: 100%;
+    float: left;
+    color: blue;
+    opacity: 4;
+}
+
+.panel-1 {
+    border: solid dodgerblue;
+    width: 20%;
+    background-color: #efffe3;
+}
+
+#buttons {
+    background-color: #3bbeff;
+}
+
+.panel-2 {
+    border: solid dodgerblue;
+    width: 50%;
+    background-color: #efffe3;
+    overflow-y: scroll;
+
+
+}
+
+input[type=button] {
+    width: 80pt;
+    box-shadow: inset 0px 2px 0px 0px #97c4fe;
+    background-color: #2353f6;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid #2b46ed;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: "Comic Sans MS";
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 30px;
+    text-decoration: underline;
+    text-shadow: 2px 1px 0px #1570cd;
+    height: 42px;
+
+}
+
+#reg-list{
+    height: 20px;
+    width: 100%;
+    padding: 15px 10px 10px;
+    text-align: left;
+    font-size: large;
+
+
+color: #0e090b;
+}
+
+td,th {
+    height: 15px;
+    vertical-align: bottom;
+
+    border-bottom: 2px solid #0c24fe;
+
+}
+td{  border-left: 1px solid #fbf8ff;
+  }
+th{
+
+    background-color: #91d2ff
+}
+#row:hover {
+    background-color: #91d2ff
+}

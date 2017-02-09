@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Student Form</title>
+    <link rel="stylesheet" type="text/css " href="dialogbox/css/jquery.dialogbox.css">
+
+    <link rel="stylesheet" type="text/css " href="style/style.css">
+
+    <script src="script/jquery-3.1.1.min.js"></script>
+    <script src="dialogbox/js/jquery.dialogBox.js"></script>
+    <script src="script/script.js"></script>
+
+</head>
+
+<body>
+
+<div id="main">
+    <div class="panel-1" name="panel-1">
+<div id =dialogue></div>
+
+<h2>REGISTRATION </h2>
+        <hr>
+<div id="input">
+        <input type="number" id="id" name="id" placeholder="ID to delete or modify"><br>
+
+        <input type="text" id="fName" name="fName" placeholder="First Name"><br>
+
+        <input type="text" id="lName" name="lName" placeholder="Last Name"><br>
+
+        <input type="date" id="date" name="date"><br>
+
+        <input type="email" id="email" name="email" placeholder="Email ID"><br>
+
+        <input type="number" id="Year" name="year" placeholder="Age"><br>
+
+        </div>
+        <div id="buttons">
+            <input type="button" id="add" name="add" value="Register" onclick="add()">
+
+            <input type="button" id="modify" name="modify" value="Search" onclick="search()">
+
+            <input type="button" id="delete" name="del" value="Delete" onclick="remove()">
+
+            <input type="button" id="mod" name="mod" value="modify" onclick="modify()">
+
+        </div>
+    </div>
+
+    <div class="panel-2" name="panel-2">
+
+        <table id="reg-list" name="reg-list">
+            <!-- tr defines rows-- th headers info-- td defines that contain data-->
+            <tr id="row">
+
+                <th>ID</th>
+
+                <th>FirstName</th>
+
+                <th>LastName</th>
+
+                <th>DOB</th>
+
+                <th>Email</th>
+
+                <th>Age</th>
+
+            </tr>
+
+        </table>
+
+    </div>
+
+</div>
+
+</body>
+
+</html>
